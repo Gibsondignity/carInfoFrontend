@@ -1,5 +1,7 @@
 import style from "./style.module.css";
 import Image from "next/image";
+import Link from 'next/link'
+
 import { useState } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
 import { Swiper, SwiperSlide, SwiperSlider } from "swiper/react";
@@ -14,8 +16,11 @@ export default function Navbar() {
   return (
     <>
       <nav className={style.nav}>
-        <a className={style.easyrent} href="/">Easyrent</a>
-        <Image src="/img/Easy-Rent-logo.png" width={80} height={80} />
+        <Link href="/">
+          <Image src="/img/Easy-Rent-logo.png" width={80} height={80} />
+        </Link>
+        <Link className={style.easyrent} href="/">Easyrent</Link>
+        
         <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
           <Image
             src="/img/menu.svg"
@@ -60,34 +65,34 @@ export default function Navbar() {
           <div className={style.menu}>
             <h4>Menu</h4>
             <p style={{ marginTop: 0 }}>
-              <a href="/" onClick={() => setOffCanvas(false)}>
+              <Link href="/" onClick={() => setOffCanvas(false)}>
                 Home
-              </a>
+              </Link>
             </p>
             <p style={{ marginTop: 0 }}>
-              <a href="/" onClick={() => setOffCanvas(false)}>
+              <Link href="#" onClick={() => setOffCanvas(false)}>
                 Login
-              </a>
+              </Link>
             </p>
             <p style={{ marginTop: 0 }}>
-              <a href="#home" onClick={() => setOffCanvas(false)}>
+              <Link href="#" onClick={() => setOffCanvas(false)}>
                 Register
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#featured" onClick={() => setOffCanvas(false)}>
+              <Link href="/about" onClick={() => setOffCanvas(false)}>
                 About
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#projects" onClick={() => setOffCanvas(false)}>
+              <Link href="/tenant" onClick={() => setOffCanvas(false)}>
                 Tenant
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="#testimoni" onClick={() => setOffCanvas(false)}>
+              <Link href="/landlord" onClick={() => setOffCanvas(false)}>
                 Landloard
-              </a>
+              </Link>
             </p>
           </div>
         </div>
@@ -95,8 +100,8 @@ export default function Navbar() {
         <div className={style.email}>
           <p>Get in touch</p>
           <h2>
-            <u><a href="mailto: info@cozypropertiesgh.com"> info@cozypropertiesgh.com </a></u><br/>
-            <u><a href="tel://+233242869759">+233(0) 242 869 759</a></u>
+            <u><Link href="mailto: info@cozypropertiesgh.com"> info@cozypropertiesgh.com </Link></u><br/>
+            <u><Link href="tel://+233242869759">+233(0) 242 869 759</Link></u>
           </h2>
         </div>
       </div>

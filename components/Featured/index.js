@@ -41,15 +41,17 @@ export default function Featured() {
   ];
 
   return (
-    <div className={style.featured} id="featured">
-      <h3>- Process</h3>
-      {itemFeatured.map((item) => (
-        <div className={style.box_featured} key={item.id}>
-          <img src={`/img/${item.image}`} width={40} height={40}/>
-          <h3>{item.title}</h3>
-          <p>{item.text}</p>
-        </div>
-      ))}
-    </div>
+    <>
+      <h3 className={style.head}>- Process</h3>
+      <div className={style.featured} id="featured">
+        {itemFeatured.map((item) => (
+          <div className={style.box_featured} key={item.id}>
+            <img src={`/img/${item.image}`} width={40} height={40}/>
+            <h3>{item.title}</h3>
+            <p>{item.text}</p>
+          </div>
+        ))}
+      </div>
+    </>
   );
 }

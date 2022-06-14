@@ -12,7 +12,7 @@
 // export default function Hero() {
 //   return (
 //     <div>
-
+ 
 //       <div className={style.hero} id="home">
 
 //         <div className={style.hero_content}>
@@ -65,6 +65,7 @@
 import Button from '../Button'
 import style from './style.module.css'
 import Image from 'next/image'
+import Link from 'next/link';
 
 import { Swiper, SwiperSlide, SwiperSlider } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
@@ -83,13 +84,18 @@ export default function Hero() {
             <h1>
               Hello, Welcome<br/>
               <span className={style.question} >Are you looking for an appartment to rent?</span>
-              <Button text="Start Now" icon="Send"/>
+              <Link href='/tenant'>
+                <Button text="Start Now" icon="Send"/>
+              </Link>
               <br/>
+              
               <span className={style.question} >Are you a Landlord?</span>
-              <Button text="Start Now" icon="Send"/>
+              <Link href='/landlord'>
+                <Button text="Start Now" icon="Send"/>
+              </Link>
             </h1> 
             
-            
+
           </div>
           
         </div>
@@ -104,6 +110,7 @@ export default function Hero() {
               navigation={false}
               modules={[Autoplay, Pagination, Navigation]}
               className={swiper_1.mySwiper}
+  
             >
               <SwiperSlide>
 

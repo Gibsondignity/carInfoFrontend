@@ -1,11 +1,11 @@
 .hero{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 30% 70%;
   padding: 10px;
 }
 
 .col_1{
-  /* display: flex; */
+  display: flex; 
   align-items: center;
   margin: 8px;
   margin-top: 0%;
@@ -13,7 +13,7 @@
 }
 
 .col_1 > div > h1{
-  font-weight: 400;
+  font-weight: 400px;
   color: #2798B7;
 }
 
@@ -30,6 +30,7 @@
   margin-bottom: 0%;
   
 }
+
 
 @media screen and (max-width: 767px){
   .hero{

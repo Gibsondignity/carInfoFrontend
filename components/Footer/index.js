@@ -16,7 +16,7 @@ export default function Footer() {
             </p>
 
             <p className={style.more_p}>
-              <a className={style.more} href="">Read More...</a>
+              <Link className={style.more} href="/about">Read More...</Link>
             </p>
         </div>
         <div>
@@ -25,7 +25,7 @@ export default function Footer() {
             Phone : +233(0) 242 869 759 */}
           <div>
             <h4><u>Help & Solutions</u></h4>
-            <p><a href='tel://+233242869759'>Talk to support</a></p>
+            <p><Link href='tel://+233242869759'>Talk to support</Link></p>
             <p>Have a question?</p>
             <p>Support docs</p>
 
