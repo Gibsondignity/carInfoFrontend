@@ -41,9 +41,9 @@ export default function Clients() {
               </div>
               <div className={style.avatar}>
                 <div className={style.imageAvatar}>
-                  <img src="/img/albert-web.png" />
+                  {/* <img src="/img/albert-web.png" /> */}
                 </div>
-                <p>Albert - Regina Bookshop</p>
+                <p>Jonhson - Tenant</p>
 
               </div>
             </SwiperSlide>
@@ -58,9 +58,9 @@ export default function Clients() {
               </div>
               <div className={style.avatar}>
                 <div className={style.imageAvatar}>
-                  <img src="/img/stephen.jpg" />
+                  {/* <img src="/img/stephen.jpg" /> */}
                 </div>
-                <p>Stephen - Tenant</p>
+                <p>Gibson - Tenant</p>
               </div>
             </SwiperSlide>
             <SwiperSlide className={style.swiper_slide}>
@@ -74,7 +74,7 @@ export default function Clients() {
               </div>
               <div className={style.avatar}>
                 <div className={style.imageAvatar}>
-                  <img src="/img/foli.jpeg" />
+                  {/* <img src="/img/foli.jpeg" /> */}
                 </div>
                 <p>Vivian - Tenant</p>
               </div>

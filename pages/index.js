@@ -4,7 +4,7 @@ import Featured from "../components/Featured";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import Projects from "../components/Projects";
+import Projects from "../components/Space";
 import Step from "../components/Step";
 import ScrollToTop from "react-scroll-to-top";
 
