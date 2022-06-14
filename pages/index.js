@@ -1,11 +1,11 @@
-import Clients from "../Components/Clients";
-import Concepts from "../Components/Concepts";
-import Featured from "../Components/Featured";
-import Footer from "../Components/Footer";
-import Hero from "../Components/Hero";
-import Navbar from "../Components/Navbar";
-import Projects from "../Components/Projects";
-import Step from "../Components/Step";
+import Clients from "../components/Clients";
+import Concepts from "../components/Concepts";
+import Featured from "../components/Featured";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
+import Step from "../components/Step";
 import ScrollToTop from "react-scroll-to-top";
 
 export default function Home() {

@@ -1,6 +1,6 @@
 import Loign from '../components/Login'
 import style from '../components/Login/style.module.css'
-import Navbar from "../Components/Navbar";
+import Navbar from "../components/Navbar";
 
 const login = () => {
   return (
