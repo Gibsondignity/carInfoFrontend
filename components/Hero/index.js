@@ -20,7 +20,7 @@ export default function Hero() {
             <h1>
               Is your rent due?<br/>
               <span className={style.question} > <br/>
-              What's you plan?</span>
+              What is you plan?</span>
               <Link href='/tenant'>
                 <Button text="Start Now" icon="Send"/>
               </Link>
