@@ -1,0 +1,25 @@
+
+.swiper{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: blueviolet;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .swiper {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        gap: 0;
+    }
+
+    .img{
+        height: 700px;
+    }
+}
+    

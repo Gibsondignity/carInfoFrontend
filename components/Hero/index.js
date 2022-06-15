@@ -3,6 +3,7 @@ import style from './style.module.css'
 import Image from 'next/image'
 import Link from 'next/link';
 
+
 import { Swiper, SwiperSlide, SwiperSlider } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import 'swiper/css';
@@ -36,7 +37,32 @@ export default function Hero() {
           </div>
           
         </div>
-        <div className={style.col_2}>
+
+
+        <div className={style.rentspace}>
+
+          <h1>Rent your space</h1>
+
+          <p>Do you have a house/room to rent out?</p>
+          <p>Are you looking for a space to rent?</p>
+
+        <di className={style.buttons}>
+          <div >
+            <Link href='/tenant'>
+              <Button text="Landlord" className={style.landlordButton}/>
+            </Link>
+          </div>
+
+          <div>
+            <Link href='/tenant'>
+              <Button text="Tenant" className={style.tenantButton}/>
+            </Link>
+          </div>
+        </di>
+
+        </div>
+      
+        {/* <div className={style.col_2}>
           
             <Swiper
               spaceBetween={30}
@@ -63,7 +89,7 @@ export default function Hero() {
               </SwiperSlide>
 
           </Swiper>
-        </div>
+        </div> */}
       </div>
     </div>
   )
