@@ -66,7 +66,7 @@ const Slider = () => {
       
       <SwiperSlide className={ style.img }>
         
-        <img src="/img/easyrent7.jpg"  />
+        <img src="/img/easyrent5.jpg"  />
         <div>
           <h2>Easyrent is here to help</h2>
           <p>I was very happy to get a 2 bedroom unit with Easyrent without any difficulty.....
