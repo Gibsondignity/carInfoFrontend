@@ -19,18 +19,13 @@ export default function Hero() {
           <div>
 
             <h1>
-              Is your rent due?<br/>
+              Hello, Welcome to Easy.<br/>
               <span className={style.question} > <br/>
-              What is you plan?</span>
-              <Link href='/tenant'>
-                <Button text="Start Now" icon="Send"/>
-              </Link>
-              <br/>
+              EasyRent pays advances for all renters who qualify and are approved and are in the process of renting a room, an apartment, or a whole house. Renters can use our services to make affordable monthly rent payments.</span>
               
-              <span className={style.question} >Are you a Landlord?</span>
-              <Link href='/landlord'>
-                <Button text="Start Now" icon="Send"/>
-              </Link>
+              
+              
+              
             </h1> 
             
 

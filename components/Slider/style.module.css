@@ -18,6 +18,8 @@
     top: 40%; 
     left: 25%;
     border: 2px solid #2798B7;
+    background-color: #488D65; opacity: 0.8;
+    
     width: 500px;
     height: 300px;
     animation-name: myanimantion;

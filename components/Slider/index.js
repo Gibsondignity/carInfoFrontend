@@ -31,7 +31,7 @@ const Slider = () => {
 
       <SwiperSlide className={ style.img }>
         
-        <img src="/img/login-bg.jpg"  />
+        <img src="/img/easyrent1.jpg"  />
         <div>
           <h2>EASY RENT</h2>
           <p>Do you have a house/room to rent out? Are you looking for a Space to rent?</p>
@@ -43,9 +43,9 @@ const Slider = () => {
       
       <SwiperSlide className={ style.img }>
         
-        <img src="/img/login-bg.jpg"  />
+        <img src="/img/easyrent2.jpg"  />
         <div>
-          <h2>Is your rend due?</h2>
+          <h2>Is your rent due?</h2>
           <p>Let EasyRent take the stress out of your rental experience in Ghana.</p>
 
         </div>
@@ -53,7 +53,7 @@ const Slider = () => {
 
       
       <SwiperSlide className={ style.img }>
-        <img src="/img/login-bg.jpg"  />
+        <img src="/img/easyrent3.jpg"  />
 
         <div>
           <h2>SHORT STORY</h2>
@@ -66,7 +66,7 @@ const Slider = () => {
       
       <SwiperSlide className={ style.img }>
         
-        <img src="/img/login-bg.jpg"  />
+        <img src="/img/easyrent1.jpg"  />
         <div>
           <h2>Easyrent is here to help</h2>
           <p>I was very happy to get a 2 bedroom unit with Easyrent without any difficulty.....
@@ -77,7 +77,7 @@ const Slider = () => {
       
       <SwiperSlide className={ style.img }>
         
-        <img src="/img/login-bg.jpg"  />
+        <img src="/img/easyrent3.jpg"  />
         <div>
           <h2>Very Smooth</h2>
           <p>My transition to my new home was very smooth. We had an electrical issue on arrival and it was resolved very fast..... 
