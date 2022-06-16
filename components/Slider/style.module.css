@@ -54,12 +54,19 @@
 }
 
 
-@media screen and (max-width: 380px){
-    .img > div{
-       display: none;
+@media screen and (min-width: 950px) {
+    .img > img{
+        height: 600px;
+        width: 100%;
+       }
+
+       .img > div{
+        position: absolute;
+        left: 35%;
+       
     }
-}
     
+}
 
 
 
@@ -113,17 +120,24 @@
 }
 
 
-@media screen and (min-width: 950px) {
-    .img > img{
-        height: 600px;
-        width: 100%;
-       }
 
-       .img > div{
+
+@media screen and (max-width: 450px){
+
+    .img > div{
         position: absolute;
-        left: 35%;
-       
+        top: 30%; 
+        border: 2px solid #2798B7;
+        width: 240px;
+        height: 150px;
+
     }
+
     
+    .img > div > p{
+        color: white;
+        text-align: left; 
+    }
+
 }
     
