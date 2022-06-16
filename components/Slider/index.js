@@ -27,14 +27,67 @@ const Slider = () => {
       onSlideChange={() => console.log('slide change')}
       className={style.swiper}
     >
-      <SwiperSlide><Image src="/img/img-1.png" width={1300} height={600} className={ style.img } /></SwiperSlide>
-      <SwiperSlide><Image src="/img/img-3.png" width={1300} height={600} className={ style.img } /></SwiperSlide>
-      <SwiperSlide><Image src="/img/img-2.png" width={1300} height={600} className={ style.img } /></SwiperSlide>
-      <SwiperSlide><Image src="/img/img-1.png" width={1300} height={600} className={ style.img } /></SwiperSlide>
-      <SwiperSlide><Image src="/img/img-2.png" width={1300} height={600} className={ style.img } /></SwiperSlide>
-      <SwiperSlide><Image src="/img/img-3.png" width={1300} height={600} className={ style.img } /></SwiperSlide>
-      <SwiperSlide><Image src="/img/img-1.png" width={1300} height={600} className={ style.img } /></SwiperSlide>
-      <SwiperSlide><Image src="/img/img-3.png" width={1300} height={600} className={ style.img } /></SwiperSlide>
+
+
+      <SwiperSlide className={ style.img }>
+        
+        <img src="/img/login-bg.jpg"  />
+        <div>
+          <h2>EASY RENT</h2>
+          <p>Do you have a house/room to rent out? Are you looking for a Space to rent?</p>
+          
+
+        </div>
+      </SwiperSlide>
+
+      
+      <SwiperSlide className={ style.img }>
+        
+        <img src="/img/login-bg.jpg"  />
+        <div>
+          <h2>Is your rend due?</h2>
+          <p>Let EasyRent take the stress out of your rental experience in Ghana.</p>
+
+        </div>
+      </SwiperSlide>
+
+      
+      <SwiperSlide className={ style.img }>
+        <img src="/img/login-bg.jpg"  />
+
+        <div>
+          <h2>SHORT STORY</h2>
+          <p>Easy Rent is formed by able and problem-solving young individuals...</p>
+        </div>
+      </SwiperSlide>
+      
+
+
+      
+      <SwiperSlide className={ style.img }>
+        
+        <img src="/img/login-bg.jpg"  />
+        <div>
+          <h2>Easyrent is here to help</h2>
+          <p>I was very happy to get a 2 bedroom unit with Easyrent without any difficulty.....
+            </p>
+        </div>
+      </SwiperSlide>
+
+      
+      <SwiperSlide className={ style.img }>
+        
+        <img src="/img/login-bg.jpg"  />
+        <div>
+          <h2>Very Smooth</h2>
+          <p>My transition to my new home was very smooth. We had an electrical issue on arrival and it was resolved very fast..... 
+            </p>
+        </div>
+      </SwiperSlide>
+
+      
+
+
     </Swiper>
   );
 };
