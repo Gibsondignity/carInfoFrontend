@@ -1,10 +1,10 @@
 .clients{
   background-color: rgb(39,152,183);
-  height: 700px;
+  height: 500px;
   position: absolute;
   width: 100%;
   left: 0;
-  padding-top: 8rem;
+  padding-top: 2rem;
 }
 
 
@@ -81,8 +81,8 @@
 
 @media screen and (max-width:767px){
   .clients{
-    padding-top: 6rem;
-    height: 960px;
+    padding-top: 1rem;
+    height: 760px;
     padding-bottom: 8rem;
     width: 100%;
     left: 0;
