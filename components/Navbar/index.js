@@ -15,66 +15,42 @@ export default function Navbar() {
 
   return (
     <>
-        {/* <div className={style.logapp_small}>
-          <div className={style.login}>
-            <Image
-              src="/img/login-icon.ico"
-              width={25}
-              height={25} 
-              style={{ cursor: "pointer" }}
-            />
-            <Link href="/" Login>Login</Link>
-          </div>
-            <div className={style.apply}>
-            <Image
-              src="/img/apply.ico"
-              width={20}
-              height={20} 
-              style={{ cursor: "pointer" }}
-            />
-          <Link href="/">Apply</Link>
-          </div>
-        </div> */}
-
-
       <nav className={style.nav}>
 
       <div className={style.logapp}>
           <div className={style.login}>
-            <Link href="#" Login>
+            
             <Image
               src="/img/login-icon.ico"
               width={25}
               height={25} 
               style={{ cursor: "pointer" }}
             />
-            Login</Link>
+            <Link href="tenant" Login>Login</Link>
 
           </div>
             <div className={style.apply}>
-            <Link href="#">
+            
             <Image
               src="/img/apply.ico"
               width={20}
               height={20} 
               style={{ cursor: "pointer" }}
             />
-            Apply</Link>
+            <Link href="/">Apply</Link>
           </div>
         </div>
 
         <div className={style.logo}>
-          <Link href="#">
+          <Link href="">
             <Image src="/img/Easy-Rent-logo.png" width={80} height={80} style={{ cursor: "pointer" }} />
           </Link>
         </div>
 
         
-          {/* <Link className={style.home} href="/">Home</Link> */}
-        
         <div className={style.navlinks}>
           <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
+          <Link href="/">About</Link>
           <Link href="/">Tenant</Link>
           <Link href="/">Landloard</Link>
           <Link href="/">Calculator</Link>
@@ -83,8 +59,6 @@ export default function Navbar() {
         <div className={style.contacts}>
           <Image src="/img/contact.jpg" width={25} height={25}></Image>
           <a href="tel://+233242869759">024-286-9759</a>
-          {/* <a className={style.contacts_1} href="tel://+233242869759">|</a>
-          <a className={style.contacts_1} href="tel://+233242869759">024-286-9759</a> */}
 
         </div>
         
@@ -125,10 +99,7 @@ export default function Navbar() {
                 <img src="/img/Twitter.svg" />
                 <span>&nbsp; Twitter</span>
               </p>
-              {/* <p>
-                <img src="/img/Youtube.svg" />
-                <span>&nbsp; Youtube</span>
-              </p> */}
+
               <p>
                 <img src="/img/Facebook.svg" />
                 <span>&nbsp; Facebook</span>
