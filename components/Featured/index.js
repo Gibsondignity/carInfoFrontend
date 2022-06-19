@@ -26,22 +26,12 @@ export default function Featured() {
       title: "Payment",
       text: "With EasyRent, you can choose to pay by year,  semi-annual, quarter or month, the latter being particularly helpful for tenants.",
     },
-    // {
-    //   id: 5,
-    //   image: "Settings.svg",
-    //   title: "Earum porro qui",
-    //   text: "Vel officia dolores ut iusto mollitia velit quis. Ex repudiandae nemo. Omnis ut fuga recusandae. Natus eos inventore. Nesciunt quo asperiores ut quas non molestias vero. Autem ab ducimus.",
-    // },
-    // {
-    //   id: 6,
-    //   image: "Power-button.svg",
-    //   title: "Et placeat amet",
-    //   text: "Sint et nihil blanditiis dolorem quod. Quo nostrum cum sequi non consequatur dolores sit. Dolorum optio minus voluptatem dolores et placeat voluptatem necessitatibus est.",
-    // },
+    
   ];
 
   return (
-    <>
+
+    <div className={style.mainfeatured}>
       <h3 className={style.head}>- Process</h3>
       <div className={style.featured} id="featured">
         {itemFeatured.map((item) => (
@@ -50,8 +40,9 @@ export default function Featured() {
             <h3>{item.title}</h3>
             <p>{item.text}</p>
           </div>
+          
         ))}
       </div>
-    </>
+    </div>
   );
 }

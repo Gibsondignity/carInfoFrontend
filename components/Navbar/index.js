@@ -15,22 +15,95 @@ export default function Navbar() {
 
   return (
     <>
+        {/* <div className={style.logapp_small}>
+          <div className={style.login}>
+            <Image
+              src="/img/login-icon.ico"
+              width={25}
+              height={25} 
+              style={{ cursor: "pointer" }}
+            />
+            <Link href="/" Login>Login</Link>
+          </div>
+            <div className={style.apply}>
+            <Image
+              src="/img/apply.ico"
+              width={20}
+              height={20} 
+              style={{ cursor: "pointer" }}
+            />
+          <Link href="/">Apply</Link>
+          </div>
+        </div> */}
+
+
       <nav className={style.nav}>
-        <Link href="/">
-          <Image src="/img/Easy-Rent-logo.png" width={80} height={80} />
-        </Link>
-        <Link className={style.easyrent} href="/">Easyrent</Link>
+
+      <div className={style.logapp}>
+          <div className={style.login}>
+            <Link href="/" Login>
+            <Image
+              src="/img/login-icon.ico"
+              width={25}
+              height={25} 
+              style={{ cursor: "pointer" }}
+            />
+            Login</Link>
+
+          </div>
+            <div className={style.apply}>
+            <Link href="/">
+            <Image
+              src="/img/apply.ico"
+              width={20}
+              height={20} 
+              style={{ cursor: "pointer" }}
+            />
+            Apply</Link>
+          </div>
+        </div>
+
+        <div className={style.logo}>
+          <Link href="/">
+            <Image src="/img/Easy-Rent-logo.png" width={80} height={80} style={{ cursor: "pointer" }} />
+          </Link>
+        </div>
+
+        
+          {/* <Link className={style.home} href="/">Home</Link> */}
+        
+        <div className={style.navlinks}>
+          <Link href="/">Home</Link>
+          <Link href="/">About</Link>
+          <Link href="/">Tenant</Link>
+          <Link href="/">Landloard</Link>
+          <Link href="/">Calculator</Link>
+        </div>
+
+        <div className={style.contacts}>
+          <Image src="/img/contact.jpg" width={25} height={25}></Image>
+          <a href="tel://+233242869759">024-286-9759</a>
+          {/* <a className={style.contacts_1} href="tel://+233242869759">|</a>
+          <a className={style.contacts_1} href="tel://+233242869759">024-286-9759</a> */}
+
+        </div>
         
         <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
           <Image
             src="/img/menu.svg"
-            width={32}
-            height={32}
+            width={38}
+            height={38} 
             style={{ cursor: "pointer" }}
             onClick={() => setOffCanvas(true)}
+            className={style.menuicon}
           />
         </OutsideClickHandler>
       </nav>
+
+
+
+
+
       <div className={`${style.canvas_menu} ${offCanvas ? style.active : ""} `}>
         <div className={style.close_icon}>
           <Image
@@ -76,7 +149,7 @@ export default function Navbar() {
             </p>
             <p style={{ marginTop: 0 }}>
               <Link href="#" onClick={() => setOffCanvas(false)}>
-                Register
+                Apply
               </Link>
             </p>
             <p>

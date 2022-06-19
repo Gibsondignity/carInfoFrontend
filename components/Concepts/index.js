@@ -2,7 +2,7 @@ import style from './style.module.css'
 export default function Concepts() {
   return (
     <div className={style.concept}>
-      <h1>Have an amazing concept, <br/>Let’s talk</h1>
+      <h1>EasyRent is ready to receive your ideas, <br/>Let’s talk</h1>
       {/* <div className={style.textarea}>
         <textarea placeholder="Your message"></textarea>
       </div> */}

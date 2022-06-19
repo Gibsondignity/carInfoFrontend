@@ -1,16 +1,16 @@
 
 .nav{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 1rem  0;
-
+  gap: 5rem;
 }
 
 .nav > a{
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: #F94001;;
+  font-size: 1.6rem; 
+  font-weight: 600;
+  color: #000;;
 }
 
 .canvas_menu{
@@ -24,7 +24,91 @@
   right: -40%;
   padding: 3rem;
   transition: .5s cubic-bezier(0.57, 0, 0.06, 0.95);
+  
 }
+
+
+/* Nav designs */
+
+.logapp{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* .logapp_small{
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  gap: .3rem;
+  display: none !important;
+} */
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 0.3rem;
+  border-radius: 10%;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-right: .7rem;
+}
+
+
+.apply{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 0.3rem;
+  border-radius: 10%;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: #2798B7;
+ 
+}
+
+.contacts{
+  display: flex;
+  justify-content: center;
+}
+
+
+.navlinks{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem  0;
+  gap: 1rem;
+  font-size: 1.2rem; 
+}
+
+
+.home{
+  display: none !important;
+  font-size: 1.2rem; 
+  /* padding: 1rem  0; */
+}
+
+
+.contacts > a{
+  padding: .2rem;
+}
+
+.logo{
+  display: flex;
+  margin-left: 5rem;
+}
+
+
+.menuicon{
+  /* visibility: hidden; */
+  display: none !important;
+}
+
 
 .close_icon{
   position: absolute;
@@ -78,16 +162,33 @@
 
 
 
+
+
+
 @media screen and (max-width: 1280px){
   .canvas_menu{
     width: 60%;
     right: -60%;
   }
+
+  .contacts{
+    display: none !important;
+  }
+
+  .nav{
+    justify-content: space-between;
+  }
 }
 
 
-@media screen and (max-width: 1520px){
-  
+@media screen and (max-width: 925px){
+  .navlinks{
+    display: none !important;
+  }
+
+  .menuicon{
+    display: unset !important;
+  }
 }
 
 
@@ -113,7 +214,37 @@
   .menu p{
     font-size: 1.3rem;
   }
+
+  .nav{
+    margin-top: 3rem;
+  }
+
+  .logapp{
+    position: absolute;
+    top: 0rem;
+    left: 8rem;
+  }
+
+  .home{
+    display: unset !important;
+  }
+
 }
+
+
+/* @media screen and (max-width: 580px){
+  
+  .nav{
+    justify-content: space-between;
+  }
+
+
+  .logapp_large{
+    display: unset !important;
+  }
+  
+} */
+
 
 .email{
   position: absolute;

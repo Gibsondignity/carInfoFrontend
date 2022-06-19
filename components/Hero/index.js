@@ -19,14 +19,20 @@ export default function Hero() {
           <div>
 
             <h1>
-              Hello, Welcome to Easy.<br/>
-              <span className={style.question} > <br/>
-              EasyRent pays advances for all renters who qualify and are approved and are in the process of renting a room, an apartment, or a whole house. Renters can use our services to make affordable monthly rent payments.</span>
-              
-              
-              
-              
+              Hello, Welcome to EasyRent.
             </h1> 
+
+            <p>EasyRent pays advances for all renters who qualify and are approved and are in the process of renting a room, 
+              an apartment, or a whole house. Renters can use our services to make affordable monthly rent payments.
+            </p>
+
+            <p>
+            To be eligible, the applicant must provide proof of employment (3-month payslips), 
+            proof of income (official 3-month bank statements or cash statements) or audited financial 
+            statements (of business owners). <br/><br/>
+            <span>After that, an applicant must complete the application process outlined below.</span>
+            </p>
+
             
 
           </div>
