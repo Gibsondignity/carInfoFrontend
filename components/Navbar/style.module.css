@@ -1,16 +1,18 @@
 
 .nav{
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   padding: 1rem  0;
   gap: 5rem;
+  font-size: .8rem !important;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000 !important;
 }
 
-.nav > a{
+.nav > a, .nav > Link{
   font-size: 1.6rem; 
   font-weight: 600;
-  color: #000;;
+  color: #000;
 }
 
 .canvas_menu{
@@ -37,13 +39,6 @@
   padding-bottom: 1rem;
 }
 
-/* .logapp_small{
-  display: flex;
-  align-items: center;
-  padding-top: 1rem;
-  gap: .3rem;
-  display: none !important;
-} */
 
 .login{
   display: flex;

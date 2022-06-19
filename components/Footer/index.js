@@ -20,9 +20,7 @@ export default function Footer() {
             </p>
         </div>
         <div>
-        {/* 1st Floor inside Harriman Plaza on the Meridian Street Tema Comm 1
-            info@cozypropertiesgh.com
-            Phone : +233(0) 242 869 759 */}
+
           <div>
             <h4><u>Help & Solutions</u></h4>
             <p><Link href='tel://+233242869759'>Talk to support</Link></p>

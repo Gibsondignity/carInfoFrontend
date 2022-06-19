@@ -6,6 +6,7 @@
 .footer h2,
 .footer h4 {
   color: var(--dark);
+  font-size: 1rem;
 }
 
 .footer_item p {

@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import Calculator from '../components/Calculator'
 
 
-const tenant = () => {
+const calculator = () => {
   return (
     <>
       <Navbar />
@@ -14,4 +14,4 @@ const tenant = () => {
 }
 
 
-export default tenant
+export default calculator

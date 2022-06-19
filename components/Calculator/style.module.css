@@ -1,0 +1,42 @@
+.card{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.button{
+    background-color: #2798B7;
+}
+
+.button:hover{
+    background-color: #F94001;
+    
+}
+
+.cardbody{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+
+.main{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.results > p{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    .card{
+        grid-template-columns: 1fr;
+    }
+    .cardbody{
+        grid-template-columns: 1fr;
+    }
+  }

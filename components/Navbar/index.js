@@ -4,8 +4,6 @@ import Link from 'next/link'
 
 import { useState } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
-import { Swiper, SwiperSlide, SwiperSlider } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
 import 'swiper/css';
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -53,7 +51,7 @@ export default function Navbar() {
           <Link href="/">About</Link>
           <Link href="/">Tenant</Link>
           <Link href="/">Landloard</Link>
-          <Link href="/">Calculator</Link>
+          <Link href="/calculator">Calculator</Link>
         </div>
 
         <div className={style.contacts}>
@@ -136,6 +134,11 @@ export default function Navbar() {
             <p>
               <Link href="/landlord" onClick={() => setOffCanvas(false)}>
                 Landloard
+              </Link>
+            </p>
+            <p>
+              <Link href="/calculator" onClick={() => setOffCanvas(false)}>
+                Calculator
               </Link>
             </p>
           </div>
