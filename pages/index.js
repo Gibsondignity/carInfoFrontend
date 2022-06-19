@@ -17,7 +17,6 @@ export default function Home() {
       <Slider />
       <Hero />
       <Featured />
-      {/* <Step /> */}
       <Projects />
       <Clients />
       <Concepts />
