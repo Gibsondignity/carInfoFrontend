@@ -20,6 +20,7 @@ const Calculator = () => {
                         </InputGroup>
                         
                         
+                        <Form.Label htmlFor="basic-url">Monthly Rent Amount Charged</Form.Label>
                         <Form.Label htmlFor="basic-url"></Form.Label>
                         <InputGroup className="mb-3">
                             <InputGroup.Text>GH¢</InputGroup.Text>
@@ -28,8 +29,9 @@ const Calculator = () => {
                         </InputGroup>
                         
 
+                        
                         <Form.Group className="mb-3">
-                            <Form.Label></Form.Label>
+                            <Form.Label>Choose Number of Years</Form.Label>
                             <Form.Select >
                             <option>1 Year</option>
                             <option>2 Years</option>
