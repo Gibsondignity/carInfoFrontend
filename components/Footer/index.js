@@ -10,14 +10,7 @@ export default function Footer() {
             <img src="/img/Easy-Rent-logo.png" width={50} height={50}/>
             <h2>Easyrent</h2>
           </div>
-          <p>Let EasyRent take the stress out of your rental experience in Ghana. 
-            Finding a legitimate apartment that offers you flexibility in payment can be daunting.
-            With EasyRent, you can find a place that suits your needs and budget.
-            </p>
-
-            <p className={style.more_p}>
-              <Link className={style.more} href="/about">Read More...</Link>
-            </p>
+          
         </div>
         <div>
 

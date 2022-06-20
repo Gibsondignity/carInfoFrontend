@@ -22,18 +22,11 @@ export default function Hero() {
               Hello, Welcome to EasyRent.
             </h1> 
 
-            <p>EasyRent pays advances for all renters who qualify and are approved and are in the process of renting a room, 
-              an apartment, or a whole house. Renters can use our services to make affordable monthly rent payments.
-            </p>
-
             <p>
-            To be eligible, the applicant must provide proof of employment (3-month payslips), 
-            proof of income (official 3-month bank statements or cash statements) or audited financial 
-            statements (of business owners). <br/><br/>
-            <span>After that, an applicant must complete the application process outlined below.</span>
+            Let EasyRent take the stress out of your rental experience in Ghana. Finding a legitimate apartment that offers you 
+            flexibility in payment can be daunting. The most common headache among rent-seekers in Ghana is many fake agents, 
+            websites, and the two years rent advance demanded by landlords. This is where EasyRent comes in.
             </p>
-
-            
 
           </div>
           

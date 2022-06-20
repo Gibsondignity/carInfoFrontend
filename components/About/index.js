@@ -34,9 +34,7 @@ const About = () => {
 
             </div>
 
-            <div className={style.video}>               
-                <iframe className={style.video} src="https://www.youtube.com/embed/AJTyWlFDiv8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            </div>
+            
         </div>
 
         
