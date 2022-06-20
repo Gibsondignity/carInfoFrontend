@@ -57,7 +57,8 @@ export default function Navbar() {
 
         <div className={style.contacts}>
           <Image src="/img/contact.jpg" width={25} height={25}></Image>
-          <a href="tel://+233242869759">024-286-9759 | Download App</a>
+          <a href="tel://+233242869759">024-286-9759 |</a>
+          <a href="tel://+233242869759">Download App</a>
         </div>
 
 
