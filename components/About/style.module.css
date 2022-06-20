@@ -140,9 +140,8 @@ End About
       font-size: 1rem;
       text-align: left;
     }
-
-    .video{
-      height: 300px;
+    .intro > div > p{
+      text-align: left;
     }
 
   }
