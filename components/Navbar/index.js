@@ -44,7 +44,7 @@ export default function Navbar() {
             <Image src="/img/Easy-Rent-logo.png" width={80} height={80} style={{ cursor: "pointer" }} />
           </Link>
         </div>
-
+ 
         
         <div className={style.navlinks}>
           <Link href="/">Home</Link>
@@ -52,14 +52,17 @@ export default function Navbar() {
           <Link href="/">Tenant</Link>
           <Link href="/">Landloard</Link>
           <Link href="/calculator">Calculator</Link>
+          <Link href="/">Service</Link>
         </div>
 
         <div className={style.contacts}>
           <Image src="/img/contact.jpg" width={25} height={25}></Image>
-          <a href="tel://+233242869759">024-286-9759</a>
-
+          <a href="tel://+233242869759">024-286-9759 | Download App</a>
         </div>
-        
+
+
+
+
         <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
           <Image
             src="/img/menu.svg"
@@ -71,8 +74,6 @@ export default function Navbar() {
           />
         </OutsideClickHandler>
       </nav>
-
-
 
 
 

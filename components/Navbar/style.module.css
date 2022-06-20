@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   padding: 1rem  0;
-  gap: 5rem;
+  gap: 3rem;
   font-size: .8rem !important;
   font-family: Arial, Helvetica, sans-serif;
   color: #000 !important;
@@ -68,9 +68,10 @@
 
 .contacts{
   display: flex;
-  justify-content: center;
+  float: left;;
+  margin-left: 11rem;
 }
-
+ 
 
 .navlinks{
   display: flex;
@@ -95,7 +96,7 @@
 
 .logo{
   display: flex;
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 
 

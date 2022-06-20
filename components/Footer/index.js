@@ -4,13 +4,21 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <div className={style.footer}>
+      <hr/>
+          <div className={style.footerimg}>
+            <img src="/img/Easy-Rent-logo.png" width={70} height={70}/>
+          </div>
       <div className={style.footer_item}>
         <div>
-          <div>
-            <img src="/img/Easy-Rent-logo.png" width={50} height={50}/>
-            <h2>Easyrent</h2>
+          <div className={style.contactsinfo}>
+            <h4>Contact Info</h4>
+            <ul>
+              <li><img src='/img/location.png'/> 1st Floor inside Harriman Plaza on the Meridian Street Tema Comm 1</li>
+              <li><img src='/img/email.png'/> info@cozypropertiesgh.com</li>
+              <li><img src='/img/contact.jpg'/> Phone : +233(0) 242 869 759</li>
+            </ul>
+
           </div>
-          
         </div>
         <div>
 
@@ -30,15 +38,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className={style.contactsinfo}>
-        <h4>Contact Info</h4>
-      <ul>
-        <li><img src='/img/location.png'/> 1st Floor inside Harriman Plaza on the Meridian Street Tema Comm 1</li>
-        <li><img src='/img/email.png'/> info@cozypropertiesgh.com</li>
-        <li><img src='/img/contact.jpg'/> Phone : +233(0) 242 869 759</li>
-      </ul>
-
-      </div>
+      
       <div className={style.footer_terms}>
         <p>Copyright &copy; 2022 Cozytech Solutions</p>
       </div>
