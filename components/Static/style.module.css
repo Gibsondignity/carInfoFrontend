@@ -97,14 +97,13 @@
     position: absolute;
     top: 30%; 
     left: 25%;
-    border: 2px solid #2798B7;
     width: 300px;
     height: 150px;
 }
 
 
 .img > div > h2{
-    color: #F94001;
+    color: white;
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
