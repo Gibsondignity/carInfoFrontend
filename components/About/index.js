@@ -64,15 +64,16 @@ const About = () => {
             </div>
         </div>
 
-        
 
-        {/* Section Two */}
-        
+        <center>
+        <h1 className={style.partners}>Our Partners</h1>
+        </center>
+
         <div className={style.section_3}>
-            <div>
+            {/* <div>
                 <h1 className={style.section_3_head}>Our Partners</h1>
 
-                <Swiper
+                <Swiper 
                     spaceBetween={30}
                     centeredSlides={true}
                     loop={true}
@@ -95,13 +96,25 @@ const About = () => {
                     </SwiperSlide>
    
                 </Swiper>
-            </div>
+            </div> */}
 
 
-            <div>
+            
                 
-                <h1>Our Team</h1>
-            </div>
+                
+
+                <div>
+                    <Image src='/img/cozyproperties.png' width={150} height={150}></Image>
+                </div>
+                
+                <div>
+                    <Image src='/img/cozytech.png' width={150} height={150}></Image>
+                </div>
+
+                <div>
+                    <Image src='/img/cozylaundrylogo.png' width={150} height={150}></Image>
+                </div>
+          
 
         </div>
     </>
