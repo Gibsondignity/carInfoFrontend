@@ -52,7 +52,7 @@ export default function Navbar() {
           <Link href="/">Tenant</Link>
           <Link href="/">Landloard</Link>
           <Link href="/calculator">Calculator</Link>
-          <Link href="/">Service</Link>
+          <Link href="/services">Services</Link>
         </div>
 
         <div className={style.contacts}>
@@ -141,6 +141,11 @@ export default function Navbar() {
             <p>
               <Link href="/calculator" onClick={() => setOffCanvas(false)}>
                 Calculator
+              </Link>
+            </p>
+            <p>
+              <Link href="/services" onClick={() => setOffCanvas(false)}>
+                Services
               </Link>
             </p>
           </div>
