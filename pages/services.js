@@ -1,6 +1,7 @@
 import Static from "../components/Services/Static";
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer";
+import Services from "../components/Services";
 
 
 const services = () => {
@@ -9,7 +10,7 @@ const services = () => {
         
         <Navbar />
         <Static />
-        <h1>Services</h1>
+        <Services />
         <Footer />
     </div>
   )

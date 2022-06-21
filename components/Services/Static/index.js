@@ -29,9 +29,6 @@ const Static = () => {
         <img src="/img/about.jpg"  />
         <div>
           <h2>Our Services</h2>
-          {/* <p><span>Rent Made Easier</span></p> */}
-          
-
         </div>
       </SwiperSlide>
 
