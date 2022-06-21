@@ -77,7 +77,7 @@
 
   .col_1 > div{
     flex-direction: column;
-    text-align: left;
+    text-align: justify;
     margin-bottom: 3rem; 
     align-items: center;
     justify-content: center;
