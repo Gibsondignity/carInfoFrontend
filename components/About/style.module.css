@@ -108,9 +108,51 @@ About
   opacity: .8;
 }
 
-/*
-End About
-*/
+
+
+.section_4{
+  background-image: url(/img/flower.jpg);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: white;
+  
+
+}
+
+.section_4 > div {
+  border: #F94001 2px solid;
+  background-color: #2798B7;
+  border-radius: 1rem;
+}
+
+
+.section_4 > div > h1{
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: .12em;
+  color: #2798B7;
+  text-align: center;
+}
+
+
+.section_4 > div > p{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000;
+  opacity: .8;
+  text-align: justify;
+  padding: .5rem;
+}
+
+.chooseus{
+  margin-top: 3rem;
+}
+
+
 
 
   @media screen and (max-width: 767px) {
