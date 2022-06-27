@@ -1,8 +1,12 @@
+import React, { useState } from 'react';
 import {Card, Form, Container, InputGroup, FormControl, Button } from 'react-bootstrap'
 import style from './style.module.css'
 
 const Calculator = () => {
 
+    const [netSalary, setSalary] = useState(0);    
+    const [rentAmount, setAmount] = useState(0);    
+    const [year, setYear] = useState(0);    
   return (
     <div>
         <Container className={style.main}>
@@ -47,7 +51,13 @@ const Calculator = () => {
 
                 <div className={style.results}>
 
-                    <p>Results Here</p>
+                    <p>Results Here: {}</p>
+                    <hr/>
+                    <p>Reant Period: {}</p>
+                    <hr/>
+                    <p>Expected Monthly Rent Payment: {}</p>
+                    <hr/>
+                    <p>Amount Due Before Moving: {}</p>
                 </div>
             </div>
             </Card>

@@ -24,7 +24,7 @@ export default function Navbar() {
               height={25} 
               style={{ cursor: "pointer" }}
             />
-            <Link href="tenant" Login>Login</Link>
+            <Link href="account/login" Login>Login</Link>
 
           </div>
             <div className={style.apply}>
