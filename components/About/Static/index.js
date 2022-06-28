@@ -29,7 +29,11 @@ const Static = () => {
         <img src="/img/about.jpg"  />
         <div>
           <h2>EASY RENT</h2>
-          <p><span>Rent Made Easier</span></p>
+          <p>
+            <span>Our mission is to make sure that Ghanaians find affordable and comfortable accommodation.</span><br/>
+            <span className={style.italic}><i>Rent Made Easier</i></span>
+            
+          </p>
           
 
         </div>

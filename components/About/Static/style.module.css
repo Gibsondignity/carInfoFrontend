@@ -52,9 +52,15 @@
 .img > div > p{
     color: white;
     text-align: center; 
-    font-size: 2rem;
+    font-size: 1.8rem;
     transition: all 1s linear;
+
 }
+
+.italic{
+    font-size: 1.3rem;
+}
+
 
 
 @media screen and (min-width: 950px) {

@@ -1,13 +1,15 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import Calculator from '../components/Calculator'
+import Tenant from '../components/Tenant'
 
 
 const tenant = () => {
   return (
     <>
       <Navbar />
-      <Calculator />
+
+      <Tenant />
+
       <Footer />
     </>
   )

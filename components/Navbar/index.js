@@ -24,7 +24,7 @@ export default function Navbar() {
               height={25} 
               style={{ cursor: "pointer" }}
             />
-            <Link href="account/login" Login>Login</Link>
+            <Link href="/account/login" Login>Login</Link>
 
           </div>
             <div className={style.apply}>
@@ -49,7 +49,7 @@ export default function Navbar() {
         <div className={style.navlinks}>
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
-          <Link href="/">Tenant</Link>
+          <Link href="/tenant">Tenant</Link>
           <Link href="/">Landloard</Link>
           <Link href="/calculator">Calculator</Link>
           <Link href="/services">Services</Link>
@@ -114,7 +114,7 @@ export default function Navbar() {
               </Link>
             </p>
             <p style={{ marginTop: 0 }}>
-              <Link href="#" onClick={() => setOffCanvas(false)}>
+              <Link href="/account/login" onClick={() => setOffCanvas(false)}>
                 Login
               </Link>
             </p>

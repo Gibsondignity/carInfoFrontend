@@ -1,5 +1,6 @@
 .mainfeatured{
-  background: url(/img/flower.jpg) no-repeat center center fixed;
+  /* background: url(/img/flower.jpg) no-repeat center center fixed; */
+  background-color: #F94001;
   position: relative;
   width: 100%;
   left: 0;

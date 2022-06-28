@@ -111,7 +111,8 @@ About
 
 
 .section_4{
-  background-image: url(/img/flower.jpg);
+  /* background-image: url(/img/flower.jpg); */
+  background-color: #F94001;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
@@ -185,6 +186,12 @@ About
     .intro > div > p{
       text-align: justify;
     }
+
+
+    .section_4{
+      grid-template-columns: repeat(1, 1fr);
+    }
+
 
   }
 

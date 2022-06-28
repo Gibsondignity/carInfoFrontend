@@ -7,6 +7,8 @@ const Calculator = () => {
     const [netSalary, setSalary] = useState(0);    
     const [rentAmount, setAmount] = useState(0);    
     const [year, setYear] = useState(0);    
+
+    
   return (
     <div>
         <Container className={style.main}>
@@ -40,7 +42,7 @@ const Calculator = () => {
                             <option>1 Year</option>
                             <option>2 Years</option>
                             <option>3 Years</option>
-                            <option>4 Years</option>
+                            {/* <option>4 Years</option> */}
                             </Form.Select>
                         </Form.Group>
                         
