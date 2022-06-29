@@ -123,7 +123,7 @@ export default function Navbar() {
               </Link>
             </p>
             <p style={{ marginTop: 0 }}>
-              <Link href="#" onClick={() => setOffCanvas(false)}>
+              <Link href="/account/signup" onClick={() => setOffCanvas(false)}>
                 Apply
               </Link>
             </p>
@@ -138,7 +138,7 @@ export default function Navbar() {
               </Link>
             </p>
             <p>
-              <Link href="/landlord" onClick={() => setOffCanvas(false)}>
+              <Link href="/account/application" onClick={() => setOffCanvas(false)}>
                 Landloard
               </Link>
             </p>
