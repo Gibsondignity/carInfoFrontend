@@ -1,6 +1,6 @@
 import style from './style.module.css';
 import { Form, Button, Container } from 'react-bootstrap';
-import {Link, Image} from 'next/link';
+import Link from 'next/link';
 
 const Tenant = () => {
   return (
@@ -64,6 +64,16 @@ const Tenant = () => {
         </Form>
 
       </div>
+
+      <div className={style.links}>
+        <div>
+          <Link href="/account/signup">Register Now</Link>
+        </div>
+        <div>
+          <Link href="/account/login">Login Now</Link>
+        </div>
+      </div>
+
       </Container>
       
     </div>

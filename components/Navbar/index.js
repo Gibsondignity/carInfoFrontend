@@ -18,8 +18,11 @@ export default function Navbar() {
       <div className={style.logapp}>
           <div className={style.login}>
             
+            
             <Image
+
               src="/img/login-icon.ico"
+              href="/account/login"
               width={25}
               height={25} 
               style={{ cursor: "pointer" }}
@@ -31,11 +34,12 @@ export default function Navbar() {
             
             <Image
               src="/img/apply.ico"
+              
               width={20}
               height={20} 
               style={{ cursor: "pointer" }}
             />
-            <Link href="/">Apply</Link>
+            <Link href="/account/signup">Apply</Link>
           </div>
         </div>
 
@@ -50,7 +54,7 @@ export default function Navbar() {
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/tenant">Tenant</Link>
-          <Link href="/">Landloard</Link>
+          <Link href="/account/application">Landloard</Link>
           <Link href="/calculator">Calculator</Link>
           <Link href="/services">Services</Link>
         </div>
