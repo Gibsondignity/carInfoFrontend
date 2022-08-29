@@ -27,7 +27,7 @@ export default function Navbar() {
               height={25} 
               style={{ cursor: "pointer" }}
             />
-            <Link href="/account/login" Login>Login</Link>
+            <Link href="https://account.easyrentgh.com/account" Login>Login</Link>
 
           </div>
             <div className={style.apply}>
@@ -39,7 +39,7 @@ export default function Navbar() {
               height={20} 
               style={{ cursor: "pointer" }}
             />
-            <Link href="/account/signup">Apply</Link>
+            <Link href="https://account.easyrentgh.com/register">Apply</Link>
           </div>
         </div>
 
@@ -123,7 +123,7 @@ export default function Navbar() {
               </Link>
             </p>
             <p style={{ marginTop: 0 }}>
-              <Link href="/account/signup" onClick={() => setOffCanvas(false)}>
+              <Link href="https://account.easyrentgh.com/register" onClick={() => setOffCanvas(false)}>
                 Apply
               </Link>
             </p>

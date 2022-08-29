@@ -1,3 +1,4 @@
+
 import style from "./style.module.css";
 
 export default function Featured() {
@@ -34,6 +35,7 @@ export default function Featured() {
     <div className={style.mainfeatured}>
       <h3 className={style.head}>- Process</h3>
       <div className={style.featured} id="featured">
+
         {itemFeatured.map((item) => (
           <div className={style.box_featured} key={item.id}>
             <img src={`/img/${item.image}`} width={40} height={40}/>
