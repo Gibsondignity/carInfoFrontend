@@ -11,8 +11,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <Provider store={store}>
       <Head>
-        <title>Easyrent Gh</title>
-        <link rel="icon" href="/img/Easy-Rent-logo.png"/>
+        <title>Car Info Tracker</title>
+        {/* <link rel="icon" href="/img/Easy-Rent-logo.png"/> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link

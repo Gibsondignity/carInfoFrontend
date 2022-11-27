@@ -1,0 +1,45 @@
+.bottomNav {
+    width: 90%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid var(--grey-color);
+    z-index: 3;
+    background-color: #01214A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 10px 0;
+    
+  }
+  .bnTab {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /* @media screen and (max-width: 768px) {
+    .bottomNav {
+      width: 100%;
+      height: 60px;
+      position: fixed;
+      bottom: 0;
+      border-top: 1px solid var(--grey-color);
+      z-index: 3;
+      background-color: #01214A;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px 0 10px 0;
+    }
+    .bnTab {
+      width: 25%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  } */

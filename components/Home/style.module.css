@@ -1,0 +1,70 @@
+.background{
+    background-image: url("https://i.imgur.com/MD3HFwl.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+    
+.container{
+    background-color: #012148;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    gap: auto;
+    border-radius: 10px;
+}
+
+.tutorial{
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.tutorial:hover{
+    background-color: #012148;
+    color: white;
+    border: 1px solid white;
+}
+
+
+.empty_space{
+    
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scanButton{
+    background-color: #012148;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    width: 10rem;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
