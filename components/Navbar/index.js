@@ -54,18 +54,18 @@ export default function Navbar() {
             </p>
             <p style={{ marginTop: 0 }}>
               <Link href="/help" onClick={() => setOffCanvas(false)}>
-                Help
+                Search
               </Link>
             </p>
            
             <p>
               <Link href="/about" onClick={() => setOffCanvas(false)}>
-                Details
+                Profile
               </Link>
             </p>
             <p>
               <Link href="/tenant" onClick={() => setOffCanvas(false)}>
-                About
+                Logout
               </Link>
             </p>
             

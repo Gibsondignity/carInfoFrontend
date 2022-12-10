@@ -6,6 +6,11 @@ import Webcam from "react-webcam";
 
 const WebcamComponent = () => <Webcam />;
 
+
+// backend url to send image to
+// const url = http://localhost:8000/account/OCR/
+
+
 const videoConstraints = {
   width: 220,
   height: 200,

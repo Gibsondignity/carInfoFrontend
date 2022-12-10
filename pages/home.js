@@ -1,5 +1,4 @@
 
-import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import ScrollToTop from "react-scroll-to-top";
 import BottomNav from "../components/BottomNav";

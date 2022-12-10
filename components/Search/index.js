@@ -75,23 +75,37 @@ const Home = () => {
       
   return (
     <>
+      
       {/* Tutorial Modal */}
       <Modal show={tutorialModal} onHide={handleTutorialClose} animation={false}>
         <Modal.Header closeButton>
           <Modal.Title>Help Center</Modal.Title>
         </Modal.Header>
-
         <Modal.Body>
-          
-        <h1>Show something</h1>
-        </Modal.Body>
+      
+        <h2>How to use the app</h2>
 
+
+        <p>
+          Hello Welcome to the help center. Here you can find all the information you need to use the app.
+        </p>
+
+        <h3>How to scan a plate</h3>
+        <p> Tap on scan now, wait to to get the camera focussed on the plate</p>
+
+
+        <h3>Check known plate</h3>
+        <p> </p>
+
+
+        </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleTutorialClose}>
             Close
           </Button>
         </Modal.Footer>
       </Modal>
+      {/* End of Tutorial Modal */}
 
 
 

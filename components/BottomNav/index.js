@@ -2,7 +2,7 @@ import Styles from './style.module.css'
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { RiHomeSmile2Line, RiHomeSmile2Fill, RiSearchEyeFill } from 'react-icons/ri'
-import { BiSearchAlt } from 'react-icons/bi'
+import { BiSearchAlt, BiLogOut } from 'react-icons/bi'
 import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai'
 import { RiUser5Line, RiUser5Fill } from 'react-icons/ri'
 import Link from 'next/link'
@@ -68,21 +68,6 @@ const BottomNav = props => {
             </div>
             </Link>
 
-            <Link href='/saved'>
-            <div className={`${Styles.bnTab}`}>
-                {activeTabs === 'saved' ?
-                    <AiFillHeart
-                        size='35'
-                        color='#fff'
-                        onClick={() => setActiveTabs('saved')}
-                    /> :
-                    <AiOutlineHeart
-                        size='35'
-                        color='#fff'
-                        onClick={() => setActiveTabs('saved')}
-                    />}
-            </div>
-            </Link>
 
             <Link href='/profile'>
             <div className={`${Styles.bnTab}`}>
@@ -99,6 +84,24 @@ const BottomNav = props => {
                     />}
             </div>
             </Link>
+
+            <Link href='/'>
+            <div className={`${Styles.bnTab}`}>
+                {activeTabs === 'logout' ?
+                    <AiFillHeart
+                        size='35'
+                        color='#fff'
+                        onClick={() => setActiveTabs('logout')}
+                    /> :
+                    <BiLogOut
+                        size='35'
+                        color='#fff'
+                        onClick={() => setActiveTabs('logout')}
+                    />}
+            </div>
+            </Link>
+
+            
         </div>
     )
 }
